@@ -23,4 +23,4 @@ iOS 13
 CombineWithMVVM is [MIT-licensed](/LICENSE).
 
 # Conclusion 
-While there’s still a ton of information left to be discovered about Combine.I hope this article has cleared the power of combine in development. I’ll keep digging, and will report all of my new findings as soon as possible.
+While there’s still a ton of information left to be discovered about Combine. I hope this article has cleared the power of combine in development. I’ll keep digging, and will report all of my new findings as soon as possible.
