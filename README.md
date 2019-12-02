@@ -6,7 +6,7 @@ This combine demo with MVVM pattern is very simple and easy to understand. In th
 
 # Description
 
-In this demo there is three textFields Username, Password and confirmpassword. If validations for Username and Password passes, then the submit button gets enabled. If any validation doesn't pass then we are showing the validation using the label. The changes are reactive to the textField changes.
+In this demo there are three textFields Username, Password and confirmpassword. If validations for Username and Password passes, then the submit button gets enabled. If any validation doesn't pass then we are showing the validation using the label. The changes are reactive to the textField changes.
 
 # UI Controls 
 - UITextField
