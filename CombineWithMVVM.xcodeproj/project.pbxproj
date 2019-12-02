@@ -9,64 +9,29 @@
 /* Begin PBXBuildFile section */
 		5AE120F42390F4EC006B103C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE120F32390F4EC006B103C /* AppDelegate.swift */; };
 		5AE120F62390F4EC006B103C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE120F52390F4EC006B103C /* SceneDelegate.swift */; };
-		5AE120F82390F4EC006B103C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE120F72390F4EC006B103C /* ViewController.swift */; };
 		5AE120FB2390F4EC006B103C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE120F92390F4EC006B103C /* Main.storyboard */; };
 		5AE120FD2390F4EF006B103C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE120FC2390F4EF006B103C /* Assets.xcassets */; };
 		5AE121002390F4EF006B103C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE120FE2390F4EF006B103C /* LaunchScreen.storyboard */; };
-		5AE1210B2390F4EF006B103C /* CombineWithMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1210A2390F4EF006B103C /* CombineWithMVVMTests.swift */; };
-		5AE121162390F4EF006B103C /* CombineWithMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE121152390F4EF006B103C /* CombineWithMVVMUITests.swift */; };
+		5AE121252390F514006B103C /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE121232390F514006B103C /* FormViewModel.swift */; };
+		5AE121262390F514006B103C /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE121242390F514006B103C /* FormVC.swift */; };
+		5AFDDFD32394F1060089E2E9 /* ExtensionUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDDFD22394F1060089E2E9 /* ExtensionUITextField.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5AE121072390F4EF006B103C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5AE120E82390F4EC006B103C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AE120EF2390F4EC006B103C;
-			remoteInfo = CombineWithMVVM;
-		};
-		5AE121122390F4EF006B103C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5AE120E82390F4EC006B103C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AE120EF2390F4EC006B103C;
-			remoteInfo = CombineWithMVVM;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5AE120F02390F4EC006B103C /* CombineWithMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineWithMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE120F32390F4EC006B103C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE120F52390F4EC006B103C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AE120F72390F4EC006B103C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AE120FA2390F4EC006B103C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE120FC2390F4EF006B103C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE120FF2390F4EF006B103C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE121012390F4EF006B103C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AE121062390F4EF006B103C /* CombineWithMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineWithMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AE1210A2390F4EF006B103C /* CombineWithMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineWithMVVMTests.swift; sourceTree = "<group>"; };
-		5AE1210C2390F4EF006B103C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AE121112390F4EF006B103C /* CombineWithMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineWithMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AE121152390F4EF006B103C /* CombineWithMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineWithMVVMUITests.swift; sourceTree = "<group>"; };
-		5AE121172390F4EF006B103C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE121232390F514006B103C /* FormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		5AE121242390F514006B103C /* FormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
+		5AFDDFD22394F1060089E2E9 /* ExtensionUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5AE120ED2390F4EC006B103C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AE121032390F4EF006B103C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AE1210E2390F4EF006B103C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				5AE120F22390F4EC006B103C /* CombineWithMVVM */,
-				5AE121092390F4EF006B103C /* CombineWithMVVMTests */,
-				5AE121142390F4EF006B103C /* CombineWithMVVMUITests */,
 				5AE120F12390F4EC006B103C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				5AE120F02390F4EC006B103C /* CombineWithMVVM.app */,
-				5AE121062390F4EF006B103C /* CombineWithMVVMTests.xctest */,
-				5AE121112390F4EF006B103C /* CombineWithMVVMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,31 +62,15 @@
 			children = (
 				5AE120F32390F4EC006B103C /* AppDelegate.swift */,
 				5AE120F52390F4EC006B103C /* SceneDelegate.swift */,
-				5AE120F72390F4EC006B103C /* ViewController.swift */,
+				5AE121242390F514006B103C /* FormVC.swift */,
+				5AE121232390F514006B103C /* FormViewModel.swift */,
+				5AFDDFD22394F1060089E2E9 /* ExtensionUITextField.swift */,
 				5AE120F92390F4EC006B103C /* Main.storyboard */,
 				5AE120FC2390F4EF006B103C /* Assets.xcassets */,
 				5AE120FE2390F4EF006B103C /* LaunchScreen.storyboard */,
 				5AE121012390F4EF006B103C /* Info.plist */,
 			);
 			path = CombineWithMVVM;
-			sourceTree = "<group>";
-		};
-		5AE121092390F4EF006B103C /* CombineWithMVVMTests */ = {
-			isa = PBXGroup;
-			children = (
-				5AE1210A2390F4EF006B103C /* CombineWithMVVMTests.swift */,
-				5AE1210C2390F4EF006B103C /* Info.plist */,
-			);
-			path = CombineWithMVVMTests;
-			sourceTree = "<group>";
-		};
-		5AE121142390F4EF006B103C /* CombineWithMVVMUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5AE121152390F4EF006B103C /* CombineWithMVVMUITests.swift */,
-				5AE121172390F4EF006B103C /* Info.plist */,
-			);
-			path = CombineWithMVVMUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +93,6 @@
 			productReference = 5AE120F02390F4EC006B103C /* CombineWithMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5AE121052390F4EF006B103C /* CombineWithMVVMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE1211D2390F4EF006B103C /* Build configuration list for PBXNativeTarget "CombineWithMVVMTests" */;
-			buildPhases = (
-				5AE121022390F4EF006B103C /* Sources */,
-				5AE121032390F4EF006B103C /* Frameworks */,
-				5AE121042390F4EF006B103C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5AE121082390F4EF006B103C /* PBXTargetDependency */,
-			);
-			name = CombineWithMVVMTests;
-			productName = CombineWithMVVMTests;
-			productReference = 5AE121062390F4EF006B103C /* CombineWithMVVMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5AE121102390F4EF006B103C /* CombineWithMVVMUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE121202390F4EF006B103C /* Build configuration list for PBXNativeTarget "CombineWithMVVMUITests" */;
-			buildPhases = (
-				5AE1210D2390F4EF006B103C /* Sources */,
-				5AE1210E2390F4EF006B103C /* Frameworks */,
-				5AE1210F2390F4EF006B103C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5AE121132390F4EF006B103C /* PBXTargetDependency */,
-			);
-			name = CombineWithMVVMUITests;
-			productName = CombineWithMVVMUITests;
-			productReference = 5AE121112390F4EF006B103C /* CombineWithMVVMUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +105,6 @@
 				TargetAttributes = {
 					5AE120EF2390F4EC006B103C = {
 						CreatedOnToolsVersion = 11.2;
-					};
-					5AE121052390F4EF006B103C = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = 5AE120EF2390F4EC006B103C;
-					};
-					5AE121102390F4EF006B103C = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = 5AE120EF2390F4EC006B103C;
 					};
 				};
 			};
@@ -221,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				5AE120EF2390F4EC006B103C /* CombineWithMVVM */,
-				5AE121052390F4EF006B103C /* CombineWithMVVMTests */,
-				5AE121102390F4EF006B103C /* CombineWithMVVMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +137,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AE121042390F4EF006B103C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AE1210F2390F4EF006B103C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,42 +144,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE120F82390F4EC006B103C /* ViewController.swift in Sources */,
+				5AE121262390F514006B103C /* FormVC.swift in Sources */,
+				5AFDDFD32394F1060089E2E9 /* ExtensionUITextField.swift in Sources */,
 				5AE120F42390F4EC006B103C /* AppDelegate.swift in Sources */,
+				5AE121252390F514006B103C /* FormViewModel.swift in Sources */,
 				5AE120F62390F4EC006B103C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AE121022390F4EF006B103C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AE1210B2390F4EF006B103C /* CombineWithMVVMTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AE1210D2390F4EF006B103C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AE121162390F4EF006B103C /* CombineWithMVVMUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5AE121082390F4EF006B103C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5AE120EF2390F4EC006B103C /* CombineWithMVVM */;
-			targetProxy = 5AE121072390F4EF006B103C /* PBXContainerItemProxy */;
-		};
-		5AE121132390F4EF006B103C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5AE120EF2390F4EC006B103C /* CombineWithMVVM */;
-			targetProxy = 5AE121122390F4EF006B103C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5AE120F92390F4EC006B103C /* Main.storyboard */ = {
@@ -434,14 +292,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7224G6JACN;
 				INFOPLIST_FILE = CombineWithMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mi.CombineWithMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "*PratikAccountDevelopment_19Aug2019";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,96 +313,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7224G6JACN;
 				INFOPLIST_FILE = CombineWithMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mi.CombineWithMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "*PratikAccountDevelopment_19Aug2019";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5AE1211E2390F4EF006B103C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CombineWithMVVMTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mi.CombineWithMVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CombineWithMVVM.app/CombineWithMVVM";
-			};
-			name = Debug;
-		};
-		5AE1211F2390F4EF006B103C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CombineWithMVVMTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mi.CombineWithMVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CombineWithMVVM.app/CombineWithMVVM";
-			};
-			name = Release;
-		};
-		5AE121212390F4EF006B103C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CombineWithMVVMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mi.CombineWithMVVMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CombineWithMVVM;
-			};
-			name = Debug;
-		};
-		5AE121222390F4EF006B103C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CombineWithMVVMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mi.CombineWithMVVMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CombineWithMVVM;
 			};
 			name = Release;
 		};
@@ -561,24 +347,6 @@
 			buildConfigurations = (
 				5AE1211B2390F4EF006B103C /* Debug */,
 				5AE1211C2390F4EF006B103C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AE1211D2390F4EF006B103C /* Build configuration list for PBXNativeTarget "CombineWithMVVMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AE1211E2390F4EF006B103C /* Debug */,
-				5AE1211F2390F4EF006B103C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AE121202390F4EF006B103C /* Build configuration list for PBXNativeTarget "CombineWithMVVMUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AE121212390F4EF006B103C /* Debug */,
-				5AE121222390F4EF006B103C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
