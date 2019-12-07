@@ -1,6 +1,6 @@
 # CombineUsingMVVM
 
-This combine demo with MVVM pattern is very simple and easy to understand. In this demo there is normal form validation for username and password.
+This combine demo with MVVM pattern is very simple and easy to understand. In this demo there is normal form validation for username and password. You can read more from https://medium.com/p/30d9c07210df
 
 ![video](/Media/combine.gif)
 
